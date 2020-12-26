@@ -7,7 +7,7 @@ Run it with Python3:
 
     $ python3 serve.py 9000
 
-The port number is optional, defaulting to 8000. Once the server is up and
+The port number is optional, defaulting to 9000. Once the server is up and
 running with a swagger.json file in the same directory, then the url (assuming
 port 8000) to be used in swagger-ui would be:
 
