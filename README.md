@@ -9,6 +9,8 @@ In this project, I used  Azure to configure a cloud-based machine learning produ
 I continued to work on the same the dataset of Project 1 about a direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe to a term deposit (variable y). The Architectural Diagram is:
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Minimalist%20Circles%20Mind%20Map.png)
 
+## Screenshot Machine Learning Ops Principle
+The key step of the Machine Learning Ops Principle are:
 
 
 ## Future work
@@ -23,6 +25,7 @@ Maybe we can add more data to the model, or we can add more columns. Also we can
 
 
 ## Screenshot Publish a ML Pipeline
+
 
 
 ![alt text](https://github.com/Gabilopez1/Optimizing_a_Pipeline_in_Azure/blob/master/clusterdeleting2.PNG)
