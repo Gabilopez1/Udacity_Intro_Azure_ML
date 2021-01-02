@@ -2,12 +2,11 @@
 
 ## Overview
 This project is part of the Udacity Azure ML Nanodegree.
-In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
-This model is then compared to an Azure AutoML run.
+In this project, I used  Azure to configure a cloud-based machine learning production model, after that the best model was  deploy it, and consume it. I also created, published, and consumes a pipeline.
 
 ## Architectural Diagram
 
-This dataset contains data about the direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe to a term deposit (variable y).
+I continued to work on the same the dataset of Project 1 about a direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe to a term deposit (variable y). The Architectural Diagram 
 Creating the compute cluster
 Training AutoML model
 Deployment of the best model
