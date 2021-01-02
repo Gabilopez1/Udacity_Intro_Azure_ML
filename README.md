@@ -12,12 +12,26 @@ I continued to work on the same the dataset of Project 1 about a direct marketin
 ## Screenshot Machine Learning Ops Principle
 The goal of these steps is  to create a  model to p deploy it and consume. The first step was to create a new Auto ML experiment with the Dataset from the Marketing Bank Study, after creating the computer cluster and chose Classification, the experiment run and after a while the experiment was completed and the resulting best model was VotingEnsemble.
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Registered%20datasets%20v3.PNG)
+
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Experimentcompleted.PNG)
+
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/VotingEnsemblebestmodel.PNG)
 
+
 Once the best model was obtained then is time to deployed it to allow to interact with the HTTP API service and interact with the model by sending data over POST requests. The Model was deployed using Azure Container Instance (ACI). Now that the Best Model is deployed, it was time to enable Application Insights and retrieve logs. 
+
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Application%20insights%20v4.PNG)
+
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Logs%20application%20insights.PNG)
+
+
+The next step was to consume the deployed model using Swagger, after that it was possible to interact with the swagger intance running with the documentation for the HTTP API of the model and display the content of the API
+
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/swaggerdemobankv4.PNG)
+
+Once the model is deployed,the  endpoint.py script was used to provided the interaction with the trained model. In this step, it was  needed to run the script, modifying both the scoring_uri and the key to match the key for the service and the URI that was generated after deployment.
+
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/endpointyesno.PNG)
 
 
 
