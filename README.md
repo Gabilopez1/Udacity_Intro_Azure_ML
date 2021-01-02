@@ -59,8 +59,23 @@ I think it will helpful to add more data to the model, this might improve the ac
 
 ## Screenshot Create, Publish and Consume a Pipeline
 For this part of the project,I used a  Jupyter Notebook provided in the starter files. The file was uploades and some of the data was updated like keys, URI, dataset, cluster and model names. 
-After running all the cell on the jupyter Notebook the pipeline was created 
+After running all the cell on the jupyter Notebook the pipeline was created and the completed
 
 
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Pipelineendpointcomplete.PNG)
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/pipelinecomplete.PNG)
+
+The Dataset Data marketing show on visual studio
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Datamarketingwithautomodule.PNG)
+
+The "published pipeline overview" , showing the REST endpoint and the status  of ACTIVE
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/pipelinerestpoint.PNG)
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Restpointpipelineoverview.PNG) 
+
+Also on Jupyter Notebook, showing the use of "Use RunDetails Widget"
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/jupyternotebook_widget.PNG)
+
+And ML studio showing the schedule run 
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/visualstudioscheduledrun.PNG)
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/pipelinevisualstudiocomplete.PNG)
 
