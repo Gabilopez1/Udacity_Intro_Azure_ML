@@ -6,14 +6,8 @@ In this project, I used  Azure to configure a cloud-based machine learning produ
 
 ## Architectural Diagram
 
-I continued to work on the same the dataset of Project 1 about a direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe to a term deposit (variable y). The Architectural Diagram 
-Creating the compute cluster
-Training AutoML model
-Deployment of the best model
-..
-Consuming the endpoint
-..
-and so on.
+I continued to work on the same the dataset of Project 1 about a direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe to a term deposit (variable y). The Architectural Diagram is:
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Minimalist%20Circles%20Mind%20Map.png)
 
 
 
