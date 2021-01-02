@@ -15,12 +15,19 @@ The goal of these steps is  to create a  model to p deploy it and consume. The f
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Experimentcompleted.PNG)
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/VotingEnsemblebestmodel.PNG)
 
+Once the best model was obtained then is time to deployed it to allow to interact with the HTTP API service and interact with the model by sending data over POST requests. The Model was deployed using Azure Container Instance (ACI). Now that the Best Model is deployed, it was time to enable Application Insights and retrieve logs. 
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Application%20insights%20v4.PNG)
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Logs%20application%20insights.PNG)
+
+
+
+
 
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
-I think it will helpful to add more data to the model, this might improve the accuracy of the model. Also it could be interesting instead to tried  Azure Container Instance (ACI) to use Azure Kubernetes Service (AKS). Another thing that I noticed on the Data guardrails run by the Auto-ML, it detected imbalanced classes in the inputs, this can lead to a falsely perceived positive effect  of the model's accuracy because the input data has bias towards a class, this might represent a problem for the future and need to be fix it or at least review it to check if there a posibility to improve it..
+I think it will helpful to add more data to the model, this might improve the accuracy of the model. Also it could be interesting instead to tried  Azure Container Instance (ACI) to use Azure Kubernetes Service (AKS). Another thing that I noticed on the Data guardrails run by the Auto-ML, it detected imbalanced classes in the inputs, this can lead to a falsely perceived positive effect  of the model's accuracy because the input data has bias towards a class, this might represent a problem for the future and need to be fix it or at least review it to check if there a posibility to improve it.
 
 
 ## Screencast video 
@@ -33,5 +40,5 @@ I think it will helpful to add more data to the model, this might improve the ac
 
 
 
-![alt text](https://github.com/Gabilopez1/Optimizing_a_Pipeline_in_Azure/blob/master/clusterdeleting2.PNG)
+![alt text]()
 
