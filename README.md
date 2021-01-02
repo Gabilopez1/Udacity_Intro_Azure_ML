@@ -16,12 +16,13 @@ The key step of the Machine Learning Ops Principle are:
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
-I think it will helpful to add more data to the model, this might improve the accuracy of the model. Also it could be interesting instead to tried  Azure Container Instance (ACI) to use Azure Kubernetes Service (AKS). Another thing that I noticed on the Data guardrails run by the Auto-ML, it detected imbalanced classes in the inputs, this can lead to a falsely perceived positive effect  of the model's accuracy because the input data has bias towards a class, this might represent a problem for the future and need to be fix it or at least reviewed.
+I think it will helpful to add more data to the model, this might improve the accuracy of the model. Also it could be interesting instead to tried  Azure Container Instance (ACI) to use Azure Kubernetes Service (AKS). Another thing that I noticed on the Data guardrails run by the Auto-ML, it detected imbalanced classes in the inputs, this can lead to a falsely perceived positive effect  of the model's accuracy because the input data has bias towards a class, this might represent a problem for the future and need to be fix it or at least review it to check if there a posibility to improve it..
 
 
 ## Screencast video 
-**If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
-**Image of cluster marked for deletion**
+ Here you find the  link to the screencast video for the project
+ 
+ https://youtu.be/umZyfnFH24M
 
 
 ## Screenshot Publish a ML Pipeline
