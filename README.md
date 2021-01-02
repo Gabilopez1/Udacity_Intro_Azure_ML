@@ -1,4 +1,4 @@
-# Operationalizing Machine Learning
+# Project 2: Operationalizing Machine Learning
 
 ## Overview
 This project is part of the Udacity Azure ML Nanodegree.
