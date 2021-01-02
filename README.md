@@ -29,11 +29,18 @@ The next step was to consume the deployed model using Swagger, after that it was
 
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/swaggerdemobankv4.PNG)
 
+
+
 Once the model is deployed,the  endpoint.py script was used to provided the interaction with the trained model. In this step, it was  needed to run the script, modifying both the scoring_uri and the key to match the key for the service and the URI that was generated after deployment.
 
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/endpointyesno.PNG)
 
 
+An additional step was  to benchmark the endpoint using Apache bench. 
+
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/apachearriba.PNG)
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/apacheenmedio.PNG)
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Apacheabajo.PNG)
 
 
 
