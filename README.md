@@ -16,7 +16,7 @@ The key step of the Machine Learning Ops Principle are:
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
-Maybe we can add more data to the model, or we can add more columns. Also we can make new columns with existing ones with future engineering, not future selection. As it is discussed in the lectures, thanks to AutoML, engineers/scientist play more role in modeling process. We have to apply our domain knowledge and obtain better results. Also for this experiment, I did not want to spend too much money since I am working on my own azure account. However, I should have definitely tried at least 50 models."
+I think it will helpful to add more data to the model, this might improve the accuracy of the model. Also it could be interesting instead to tried  Azure Container Instance (ACI) to use Azure Kubernetes Service (AKS). Another thing that I noticed on the Data guardrails run by the Auto-ML, it detected imbalanced classes in the inputs, this can lead to a falsely perceived positive effect  of the model's accuracy because the input data has bias towards a class, this might represent a problem for the future and need to be fix it or at least reviewed.
 
 
 ## Screencast video 
