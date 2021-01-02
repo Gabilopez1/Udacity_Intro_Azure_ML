@@ -22,7 +22,7 @@ Once the best model was obtained then is time to deployed it to allow to interac
 
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Application%20insights%20v4.PNG)
 
-![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Logs%20application%20insights.PNG)
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/insightsse132.PNG)
 
 
 The next step was to consume the deployed model using Swagger, after that it was possible to interact with the swagger intance running with the documentation for the HTTP API of the model and display the content of the API
@@ -57,9 +57,10 @@ I think it will helpful to add more data to the model, this might improve the ac
  https://youtu.be/umZyfnFH24M
 
 
-## Screenshot Publish a ML Pipeline
+## Screenshot Create, Publish and Consume a Pipeline
+For this part of the project,I used a  Jupyter Notebook provided in the starter files. The file was uploades and some of the data was updated like keys, URI, dataset, cluster and model names. 
+After running all the cell on the jupyter Notebook the pipeline was created 
 
 
-
-![alt text]()
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Pipelineendpointcomplete.PNG)
 
