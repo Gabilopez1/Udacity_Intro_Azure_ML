@@ -21,7 +21,7 @@ and so on.
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
-I would like to find out more about why the difference in accuracy between the Scikit Pipeline and AutoML was not larger. Could it be that to get a significant difference the dataset should be larger and more complex? Also, I read that AutoML is able the apply preprocessing transformation such as fix null on the training dataset, categorical encoding to convert features to numeric, and dropping high-cardinality features, this means that is possible that previous use on the fuction data_clean is not necessary for AutoML.
+Maybe we can add more data to the model, or we can add more columns. Also we can make new columns with existing ones with future engineering, not future selection. As it is discussed in the lectures, thanks to AutoML, engineers/scientist play more role in modeling process. We have to apply our domain knowledge and obtain better results. Also for this experiment, I did not want to spend too much money since I am working on my own azure account. However, I should have definitely tried at least 50 models."
 
 
 ## Screencast video 
