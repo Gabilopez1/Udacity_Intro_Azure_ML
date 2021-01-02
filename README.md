@@ -10,7 +10,11 @@ I continued to work on the same the dataset of Project 1 about a direct marketin
 ![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Minimalist%20Circles%20Mind%20Map.png)
 
 ## Screenshot Machine Learning Ops Principle
-The key step of the Machine Learning Ops Principle are:
+The goal of these steps is  to create a  model to p deploy it and consume. The first step was to create a new Auto ML experiment with the Dataset from the Marketing Bank Study, after creating the computer cluster and chose Classification, the experiment run and after a while the experiment was completed and the resulting best model was VotingEnsemble.
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Registered%20datasets%20v3.PNG)
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/Experimentcompleted.PNG)
+![alt text](https://github.com/Gabilopez1/Udacity_Intro_Azure_ML/blob/master/VotingEnsemblebestmodel.PNG)
+
 
 
 ## Future work
